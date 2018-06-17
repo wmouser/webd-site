@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+		height: 100%;	
+}
+
+body { background-color:#DBD4D4;
+		width: 80%; 
+		min-width: 600px;
+		min-height: 100%;
+		position: relative;
+	}
+
+header { border: 1px solid black;
+		padding-left: 20px;
+		margin-top: 10px;
+		height: auto;
+	}
+	
+#pageFooter {
+	position: absolute;
+	right: 0;
+	bottom: -406px;
+	left: 7px;
+	background-color: #efefef;
+	text-align: center;
+	clear: both;
+	}
+	
+h1 { font-family: Georgia, Times New Roman, serif;
+	color: black;
+	font-size: 36px;
+	}
+	
+h2 { font-family: Georgia, Times New Roman, serif;
+	color: black;
+	font-size: 22px;
+	}
+
+p { margin: auto;
+	font-size: 16px;
+	color: black;
+	}
+	
+#wrap {
+      width: 1100px;
+      margin: 0 auto;
+      background-color: #fff; 
+	 }	
+
+#nav {
+      width: 100%;
+      float: left;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; 
+	  
+	  }
+	  
+#nav li {
+      float: left; 
+	  list-style: none;
+	  }
+	  
+#nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; 
+	  }
+	  
+   #nav li a:hover {
+      color: #c00;
+      background-color: #fff; 
+	  }
+	  
+.bio {
+	width: 100px;
+	float:left;
+	height: 100px;
+	margin:20px;
+	}
+	
+#logo {
+	pisition: absolute;
+}
